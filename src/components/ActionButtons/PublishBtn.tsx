@@ -78,19 +78,7 @@ const Publish: FC<PublishProps> = ({ }) => {
                         />
                         <DialogFooter>
                             <div className="flex gap-3 w-full justify-between items-center">
-                                <Button
-                                    className="w-full"
-                                    onClick={() => {
-                                        navigator.share({
-                                            title: `${MyLink.n} - itZmyLink`,
-                                            text: `Find all of ${MyLink.n}'s links in one place.`,
-                                            url: `${inputLink}`,
-                                        })
-                                    }}
-                                >
-                                    <Share2 className="mr-2 h-4 w-4" />
-                                    Share
-                                </Button>
+                                
                                 <Button
                                     className="w-full"
                                     onClick={() => {
