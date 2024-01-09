@@ -4,18 +4,17 @@ import { siteConfig } from "./page";
 import { Inter } from "next/font/google";
 import { Providers } from "@/components/Provider";
 
+
 const inter = Inter({ subsets: ["latin"] });
 
-// Original source: https://github.com/sadmann7/skateshop/blob/main/src/app/layout.tsx
 export const metadata: Metadata = {
-  metadataBase: new URL("https://itzmylink.vercel.app"),
+  metadataBase: new URL("https://me.0xns.pro"),
   title: {
     default: siteConfig.name,
-    template: `%s - itZmyLink`,
+    template: `%s Profile`,
   },
   description: siteConfig.description,
  
-  // added new keywords for seo
   keywords: [
     "bitly url shortener",
     "bitly link shortener",
@@ -32,17 +31,15 @@ export const metadata: Metadata = {
     "link in bio",
     "short my url",
     "my links",
-    "itzmylink",
-    "itZmyLink",
     "mtLink"
   ],
   authors: [
     {
-      name: "Taqui Imam",
-      url: "https://github.com/taqui-786",
+      name: "",
+      url: "",
     },
   ],
-  creator: "Taqui imam",
+  creator: "",
   themeColor: [
     { media: "(prefers-color-scheme: light)", color: "white" },
     { media: "(prefers-color-scheme: dark)", color: "black" },
